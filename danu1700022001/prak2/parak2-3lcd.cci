@@ -1,0 +1,4 @@
+VERSION:3 SOURCE_TIMESTAMP:4F7B6B79
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega8535.h"
+NODE:I LEVEL:0 LINE:28 "C:\cvavr\inc\alcd.h"
+NODE:F LEVEL:0 LINE:32 "main(void)"

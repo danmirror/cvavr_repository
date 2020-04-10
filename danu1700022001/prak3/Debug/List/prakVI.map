@@ -1,0 +1,45 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+__ds18b20_scratch_pad                                                             0x00E0       9
+ds18b20_rom_codes                                                                 0x00E9      72
+kata                                                                              0x0131      16
+_seed                                                                             0x0141       4
+_base_y                                                                           0x0145       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+ds18b20_device                                                                    R5           1
+i                                                                                 R4           1
+temp                                                                              R6,R7        2
+_lcd_x                                                                            R9           1
+_lcd_y                                                                            R8           1
+_lcd_maxx                                                                         R11          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x00083    126
+put_buff_G100                                                                     0x00101     44
+_print_G100                                                                       0x0012D    281
+sprintf                                                                           0x00246     42
+abs                                                                               0x00270      9
+ds18b20_select                                                                    0x00279     27
+ds18b20_read_spd                                                                  0x00294     33
+ds18b20_temperature                                                               0x002B5     53
+ds18b20_init                                                                      0x002EA     58
+_lcd_write_nibble_G103                                                            0x00324     14
+_lcd_write_data                                                                   0x00332     12
+lcd_gotoxy                                                                        0x0033E     13
+lcd_clear                                                                         0x0034B     14
+lcd_putchar                                                                       0x00359     21
+lcd_puts                                                                          0x0036E     12
+lcd_putsf                                                                         0x0037A     17
+lcd_init                                                                          0x0038B     40
+strlen                                                                            0x003B3     11
+strlenf                                                                           0x003BE     12

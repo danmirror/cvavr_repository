@@ -1,0 +1,9 @@
+VERSION:3 SOURCE_TIMESTAMP:4F8B70E6
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega8535.h"
+NODE:I LEVEL:0 LINE:25 "C:\cvavr\inc\delay.h"
+NODE:I LEVEL:0 LINE:26 "C:\cvavr\inc\stdio.h"
+NODE:I LEVEL:0 LINE:31 "C:\cvavr\inc\alcd.h"
+NODE:V LEVEL:0 LINE:34 "kata -> RAM:????"
+NODE:V LEVEL:0 LINE:35 "detik -> RAM:????"
+NODE:F LEVEL:0 LINE:37 "timer1_ovf_isr(void)"
+NODE:F LEVEL:0 LINE:51 "main(void)"

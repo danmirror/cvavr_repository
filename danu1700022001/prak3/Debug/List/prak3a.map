@@ -1,0 +1,21 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+A                                                                                 R5           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+lampu_pantul                                                                      0x0002F     32
+lampu_kedip                                                                       0x0004F     14
+ext_int0_isr                                                                      0x0005D      3
+ext_int1_isr                                                                      0x00060     16
+main                                                                              0x00070     65
